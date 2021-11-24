@@ -80,6 +80,9 @@ resource "aws_security_group" "allow_all" {
 
 resource "aws_vpn_gateway" "vpn_gateway" {
   vpc_id = aws_vpc.main.id
+  tags = {
+    Name = "nico-vibert-vpn-gateway
+  }
 }
 
 resource "aws_customer_gateway" "customer_gateway" {
