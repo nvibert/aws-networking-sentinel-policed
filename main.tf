@@ -19,7 +19,7 @@ resource "aws_vpc" "main" {
 
 
   tags = {
-    Name = "nico-vibert-change-20"
+    Name = "nico-vibert-change-30"
   }
 
 }
