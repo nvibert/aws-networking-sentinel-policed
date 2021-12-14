@@ -96,5 +96,5 @@ resource "aws_vpn_connection" "main" {
   customer_gateway_id             = aws_customer_gateway.customer_gateway.id
   type                            = "ipsec.1"
   static_routes_only              = true
-  tunnel1_phase1_dh_group_numbers = [19]
+  tunnel1_phase1_dh_group_numbers = [2]
 }
